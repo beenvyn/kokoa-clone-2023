@@ -1,0 +1,66 @@
+#log-in {
+  font-weight: 300;
+  background-repeat: no-repeat;
+  background-size: 32%;
+  background-image: url("logo.png");
+  background-position: 50% 9%;
+}
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 90px 0;
+}
+.welcome-header__title {
+  font-family: "Nunito", sans-serif;
+  font-size: 37px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+.welcome-header__text {
+  font-size: 17px;
+  font-weight: 400;
+  width: 75%;
+  opacity: 0.7;
+}
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+#login-form input {
+  border: none;
+  padding: 15px 5px;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+#login-form input:not([type="submit"]) {
+  font-weight: 400;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+#login-form input:focus {
+  border-color: var(--darkblue);
+}
+
+#login-form input[type="submit"] {
+  background-color: #e1f5fe;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 18px 0;
+  color: #62757f;
+  font-weight: 500;
+  margin: 6px 0;
+}
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  color: inherit;
+  opacity: 0.7;
+  margin-top: 6px;
+}

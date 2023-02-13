@@ -1,0 +1,26 @@
+.settings-setting {
+  padding: 20px 0;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings-setting i {
+  margin-right: 10px;
+  color: var(--darkblue);
+  font-size: 20px;
+}
+#email {
+  color: rgba(0, 0, 0, 0.3);
+  margin-left: 20px;
+  margin-top: 7px;
+  font-size: 15px;
+}
+.settings-setting__column:last-child {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+}
+.settings-setting:nth-child(3) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}

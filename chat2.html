@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>채팅방 - KBO Talk</title>
+  </head>
+  <body id="chat-screen">
+    <main class="status-bar-fixed">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-volume-off"></i>
+          <i class="fas fa-wifi"></i>
+          <i class="fas fa-battery-three-quarters"></i>
+          <span>83%</span>
+        </div>
+      </div>
+    </main>
+
+    <header class="alt-header">
+      <div class="alt-header-column">
+        <a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header-column">
+        <h1 class="alt-header__title">LG Twins</h1>
+      </div>
+      <div class="alt-header-column">
+        <i class="fas fa-search fa-lg" id="chat-search"></i>
+        <i class="fas fa-bars fa-lg"></i>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">2023년 2월 10일 금요일</div>
+
+      <div class="message-row">
+        <img src="tae.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">taeee22</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >우리 시범경기 언제인지 아시는 분??</span
+            >
+            <span class="message__time">13:56</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="study.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">yum_krr</span>
+          <div class="message__info">
+            <span class="message__bubble">2월 시작이에용~</span>
+            <span class="message__time">14:11</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="food.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">foodie__3</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >개막하자마자 잠실 구장 맛집 다 뿌신다!!</span
+            >
+            <span class="message__time">22:36</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메세지 작성..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>화면 크기를 줄여주세요(┬┬﹏┬┬)</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
